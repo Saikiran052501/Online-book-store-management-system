@@ -1,0 +1,255 @@
+.headerpart1
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    background-color: rgb(225, 164, 218);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#h1{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+#h1h6
+{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+#p1
+{
+    font-size: 10px;
+}
+.usericon
+{
+    height: 25px;
+    margin-left: 200px;
+    margin-top: 10px;
+
+}
+.headerpart1>div
+{
+flex-basis: 30%;
+}
+input[type=search]
+{
+    width: 400px;
+    height: 30px;
+    background-image: url(../icons/loupe.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 10px;
+    margin-top: 15px;
+    border:2px solid rgb(221, 51, 236);
+}
+.h1select
+{
+    background-color: rgb(225, 164, 218);
+    background-image: url(../icons/user.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 200px;
+    width:120px;
+    padding-left: 25px;
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    height: 23px;
+}
+#h1img{
+    margin-left: -52px;
+    margin-top: 18px;
+    height: 22px;
+    
+}
+.headerpart2
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    background-color: rgb(221, 51, 236);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h2select{
+    border:none;
+    outline: none;
+    background-color:rgb(221, 51, 236);
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: medium;
+    color: white;
+
+}.h2links
+{
+    margin-top: 15px;
+    justify-content: center;
+    margin-left: 30px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.h2image
+{
+    margin-left: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+#h2img2
+{
+    height:50px;
+    width: 100px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+   
+}
+h1
+{
+  color:rgb(221, 51, 236);
+}
+#h3
+{
+  color:rgb(221, 51, 236);
+  margin-left:400px;
+}
+#m2h5
+{ margin-top: 10px;
+  color:rgb(221, 51, 236) ;
+  margin-bottom: -2px;
+}
+
+label
+{
+  margin-left:900px;
+  color:rgb(221, 51, 236) ;
+}
+#i1
+{
+  width:120px;
+  height:20px;
+}
+th
+{
+  background-color: rgb(221, 51, 236);
+  border: none;
+}
+td
+{
+  text-align:center;
+  border: none;
+}
+table{
+  border: 3px solid rgb(221, 51, 236);
+  margin-top:-20px;
+}
+/*----form fiels */
+.mainpart2
+{
+  width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.mainpart2>div{
+  flex-basis: 50%;
+}
+#m2-img
+{
+  height: 500px;
+  height: 500px;
+  margin-left: -50px;
+}
+.m2div2
+{
+  margin-left: -180px;
+}
+#h3
+{
+  margin-left: 100px;
+}
+input[type=text]
+{
+  width: 300px;
+  border: 1px solid rgb(221, 51, 236) ;
+  height:35px;
+
+}
+input[type=email]
+{
+  width: 300px;
+  border: 1px solid rgb(221, 51, 236) ;
+  height:35px;
+
+}
+input[type=password]
+{
+  width: 300px;
+  border: 1px solid rgb(221, 51, 236) ;
+  height:35px;
+}
+#sum
+{
+  width:100px;
+  margin-left: 300px;
+  margin-top: 25px;
+  height: 35px;
+  background-color: rgb(221, 51, 236);
+  color: white;
+}
+
+/*------------------footer-----------------*/
+.footer1
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(217, 17, 235);
+    color: white;
+}
+.footer1>div{
+    flex-basis: 20%;
+}
+#f1h1
+{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#f1p1
+{
+    margin-left: 25px;
+}
+.f1div2>a
+{
+font-size: small;
+}
+.f1div3>a
+{
+font-size: small;
+}
+.f1div4>a
+{
+font-size: small;
+}
+
+.footer2
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(225, 164, 218);
+    color: white;
+    justify-content: center;
+
+}
+
+

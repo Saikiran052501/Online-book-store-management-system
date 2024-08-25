@@ -1,0 +1,270 @@
+.headerpart1
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    background-color: rgb(135, 47, 49);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#h1{
+    margin-top: 5px;
+}
+#p1
+{
+    font-size: 10px;
+}
+.usericon
+{
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 10px;
+
+}
+.headerpart1>div
+{
+flex-basis: 30%;
+}
+input[type=search]
+{
+    width: 400px;
+    height: 30px;
+    background-image: url(../icons/loupe.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 10px;
+    margin-top: 10px;
+    border:2px solid rgb(135, 47, 49)
+}
+.h1select
+{
+    border: none;
+    outline: none;
+    background-color:rgb(135, 47, 49)
+}
+/*-------------headerpart2-----------------*/
+.headerpart2
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    background-color: rgb(181, 39, 39);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h2select{
+    border:none;
+    outline: none;
+    background-color:rgb(181, 39, 39);
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: medium;
+    color: white;
+
+}.h2links
+{
+    margin-top: 15px;
+    justify-content: center;
+    margin-left: 30px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.h2image
+{
+    margin-left: 150px;
+    height: 10px;
+    margin-top: 10px;
+}
+/*-------------main part-----------------*/
+.mainpart1
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mainpart1>div
+{
+flex-basis: 50%;
+}
+#m1h1
+{
+    margin-left: 70px;
+}
+#m1h2
+{
+    margin-left: 100px;
+}
+#m1h3
+{
+    margin-left: 80px;
+}
+#m1h4{
+    margin-left: 80px;
+    border-top: 10px solid rgb(135, 47, 49);
+    width: 120px;
+    border-radius: 40px;
+}
+
+#m-img
+{
+    height:500px;
+    width:700px;
+}
+.mainpart2
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.usertype
+{
+    width:400px;height:40px;border:2px solid brown;
+    background-image: url(../icons/group\ \(1\).png);
+    position:left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+input[type=text]
+{
+    width:400px;height:40px;border:2px solid brown;
+    margin-top: 5px;
+}
+#id1{
+    background-image: url(../icons/user.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id2{
+    background-image: url(../icons/user.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id3{
+    background-image: url(../icons/address.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id4{
+    background-image: url(../icons/enterprise.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id5{
+    background-image: url(../icons/location.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id6{
+    background-image: url(../icons/tax.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id7{
+    background-image: url(../icons/viber.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#id8{
+    background-image: url(../icons/zip-code.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+input[type=email]
+{
+    width:400px;height:40px;border:2px solid brown;
+    margin-top: 5px;
+    background-image: url(../icons/gmail.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+input[type=password]
+{
+    width:400px;height:40px;border:2px solid brown;
+    margin-top: 5px;
+    background-image: url(../icons/lock.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 15px;
+}
+input[type=submit]
+{
+    width:100px;height:40px;margin-top:10px;
+    color:white;
+    margin-left: 150px;
+    background-color: brown;
+}
+input[type=reset]
+{
+    width:100px;height:40px;margin-top:10px;
+    color:white;
+    margin-left: 15px;
+    background-color:brown ;
+}
+/*-----------------Footer part----------------*/
+.footer1
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: brown;
+    color: white;
+}
+.footer1>div{
+    flex-basis: 20%;
+}
+#f1h1
+{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#f1p1
+{
+    margin-left: 25px;
+}
+.f1div2>a
+{
+font-size: small;
+}
+.f1div3>a
+{
+font-size: small;
+}
+.f1div4>a
+{
+font-size: small;
+}
+
+.footer2
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(135, 47, 49);
+    color: white;
+    justify-content: center;
+
+}
+
